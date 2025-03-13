@@ -13,6 +13,7 @@ export default function Agreement() {
     const newX = (Math.random() - 0.5) * 200; // Диапазон смещения по X
     const newY = (Math.random() - 0.5) * 100; // Диапазон смещения по Y
     setNoPosition({ transform: `translate(${newX}px, ${newY}px)` });
+    document.activeElement.blur();
   };
 
   return (
