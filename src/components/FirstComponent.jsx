@@ -1,7 +1,7 @@
 export default function FirstComponent() {
     return (
       <div
-        className="relative w-[414px] h-[925px] bg-cover bg-center"
+        className="relative w-full h-[925px] bg-cover bg-center"
         style={{ backgroundImage: "url('/fon.jpg')" }}
       >
         {/* Затемняющий слой */}
